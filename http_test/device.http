@@ -1,0 +1,14 @@
+###  create device
+POST http://localhost:8080/api/device/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "test device"
+}
+
+### get all registered devices 
+GET http://localhost:8080/api/device/ HTTP/1.1
+
+
+### delete a registered device
+DELETE http://localhost:8080/api/device/1 HTTP/1.1
